@@ -1,12 +1,88 @@
 body {
-    min-height: 100%;
-    height: 100%;
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
+    background-color: #F5F5F5;
+    margin: auto; /* 페이지 바깥 여백 */
+    padding: 0;
+
+    text-align: left;
+
+    background-image: url("/images/background.png");
+    /*background-position: center top 120px;*/
+    background-repeat: no-repeat;
+
+    padding-bottom: 30px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* align-items: center; */ 
 }
 
-button {
-    width: 200px;
+.h1 {
+    position: absolute;
+    top:250px;
+    left:85px;
+    width: 82px;
+    height: 110px;
+    border-radius: 15px;
+    box-shadow: 0 4px 16px;
+    overflow: hidden;  
+}
+
+.h1 > img {
+    width: 82px;
+    height: 110px;
+}
+
+
+.h2 {
+    position: absolute;
+    top:252px;
+    left:195px;
+    width: 85px;
+    height: 115px;
+    border-radius: 15px;
+    box-shadow: 0 4px 16px;
+    overflow: hidden; 
+    background-color: aqua; 
+}
+
+.h2 > img {
+    width: 85px;
+    height: 115px;
+}
+
+
+.h3 {
+    position: absolute;
+    top:440px;
+    left:195px;
+    width: 82px;
+    height: 110px;
+    border-radius: 15px;
+    box-shadow: 0 4px 16px;
+    overflow: hidden;  
+}
+
+.h3 > img {
+    width: 82px;
+    height: 110px;
+}
+
+.h4 {
+    position: absolute;
+    top:440px;
+    left:85px;
+    width: 82px;
+    height: 44px;
+    border-radius: 15px;
+    box-shadow: 0 4px 16px;
+    overflow: hidden;  
+}
+
+.h4 > img {
+    width: 82px;
+    height: 110px;
 }
